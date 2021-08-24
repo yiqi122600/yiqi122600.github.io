@@ -2,7 +2,7 @@
 <?php
 header('Content-Type: text/json;charset=UTF-8');
 $dir=dirname(__FILE__);
-$files = glob('./list/*.txt');
+$files = glob('./list/so.txt');
 $result='';
 foreach ($files as $file) {
         $fsize=filesize($file);
